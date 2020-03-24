@@ -24,5 +24,6 @@ namespace AppWebPersonal.Models
         public int Entradas { get; set; }
         [Display(Name = ("Salidas"))]
         public int Salidas { get; set; }
+        public virtual ICollection<Producto> Productos { get; set; }
     }
 }

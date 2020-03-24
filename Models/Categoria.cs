@@ -14,5 +14,6 @@ namespace AppWebPersonal.Models
         [Required]
         [Display(Name = ("Descripción"))]
         public string Descripcion { get; set; }
+        public virtual Producto Producto { get; set; }
     }
 }
