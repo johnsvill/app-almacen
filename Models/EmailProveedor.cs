@@ -11,7 +11,7 @@ namespace AppWebPersonal.Models
         [Key]
         [Display(Name = ("Código de email"))]
         public int CodigoEmail { get; set; }
-        [[Required]
+        [Required]
         [Display(Name = ("Email"))]
         public string Email { get; set; }
         [Required]
